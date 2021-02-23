@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.TODO;
+
 import java.util.*;
 
 public class ArrayListMagnet {
@@ -18,6 +20,7 @@ public class ArrayListMagnet {
         a.add(3, "три");
         printAL(a);
 
+        //TODO change conditions
         if (a.contains("два")) {
             a.add("2.2");
         }
