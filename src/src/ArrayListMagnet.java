@@ -20,18 +20,17 @@ public class ArrayListMagnet {
         a.add(3, "три");
         printAL(a);
 
-        //TODO change conditions
-        if (a.contains("два")) {
-            a.add("2.2");
-        }
-        printAL(a);
         if (a.contains("три")) {
-            a.remove(2);
             a.add("четыре");
         }
+        a.remove(2);
         printAL(a);
         if (a.indexOf("четыре") != 4){
             a.add(4, "4.2");
+        }
+        printAL(a);
+        if (a.contains("два")) {
+            a.add("2.2");
         }
         printAL(a);
     }
